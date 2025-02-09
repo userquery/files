@@ -26,8 +26,6 @@
   let _eventListeners = [];
   let _eventBatch = [];
   let _batchTimer = null;
-  // NEW: A per-tab identifier to help track open tabs.
-  let _tabId = null;
 
   // Default configuration values.
   const DEFAULT_CONFIG = {
@@ -225,32 +223,8 @@
     _eventListeners.push({ target: window, event: "load", handler: pageLoadHandler });
 
     // 3. Page unload: Log unload event and flush the batch.
-    // NEW: Remove this tab's marker from localStorage and, if it is the last open tab, log an additional event.
     const unloadHandler = function () {
-      try {
-        localStorage.removeItem("USERQUERY_tab_" + _tabId);
-      } catch (err) {
-        console.warn("[USERQUERY] Error removing tab id from localStorage.");
-      }
       trackInternal("pageUnload");
-
-      // Check for remaining tabs.
-      let activeTabs = 0;
-      try {
-        for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i);
-          if (key && key.indexOf("USERQUERY_tab_") === 0) {
-            activeTabs++;
-          }
-        }
-      } catch (err) {
-        console.warn("[USERQUERY] Error counting active tabs.");
-      }
-
-      if (activeTabs === 0) {
-        // This is the last tab closing.
-        trackInternal("allTabsClosed");
-      }
       flushEventBatch();
     };
     window.addEventListener("beforeunload", unloadHandler, { capture: true });
@@ -327,16 +301,6 @@
     _config = Object.assign({}, DEFAULT_CONFIG, config);
     _siteId = _config.siteId;
     _userId = getOrCreateUserId();
-
-    // NEW: Create a unique tab id for this browsing context and add it to localStorage.
-    _tabId = (crypto && typeof crypto.randomUUID === "function")
-      ? crypto.randomUUID()
-      : Math.random().toString(36).substr(2, 9);
-    try {
-      localStorage.setItem("USERQUERY_tab_" + _tabId, Date.now());
-    } catch (err) {
-      console.warn("[USERQUERY] localStorage not available for tab tracking.");
-    }
 
     console.log(`[USERQUERY] Initializing with siteId="${_siteId}", userId="${_userId}"`);
 
