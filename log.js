@@ -2,7 +2,7 @@
   "use strict";
 
   /**
-   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!!
+   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!
    *
    * This module tracks user interactions on a website by:
    * - Generating stable element identifiers (ZenIDs) based on static attributes.
