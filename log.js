@@ -1,4 +1,3 @@
-
 (function (global) {
   "use strict";
 
@@ -27,6 +26,8 @@
   let _eventListeners = [];
   let _eventBatch = [];
   let _batchTimer = null;
+  // NEW: A per-tab identifier to help track open tabs.
+  let _tabId = null;
 
   // Default configuration values.
   const DEFAULT_CONFIG = {
@@ -45,17 +46,17 @@
     if (!element || !element.tagName) return null;
 
     const parts = [element.tagName.toLowerCase()];
-    if (element.id) parts.push(id:${element.id});
-    if (element.className) parts.push(class:${element.className});
+    if (element.id) parts.push(`id:${element.id}`);
+    if (element.className) parts.push(`class:${element.className}`);
     const nameAttr = element.getAttribute("name");
-    if (nameAttr) parts.push(name:${nameAttr});
+    if (nameAttr) parts.push(`name:${nameAttr}`);
     const typeAttr = element.getAttribute("type");
-    if (typeAttr) parts.push(type:${typeAttr});
+    if (typeAttr) parts.push(`type:${typeAttr}`);
 
     // Include a truncated innerText if available and short.
     const text = element.textContent.trim();
     if (text && text.length < 50) {
-      parts.push(text:${text});
+      parts.push(`text:${text}`);
     }
     return parts.join("|");
   }
@@ -123,7 +124,7 @@
         const array = new Uint8Array(16);
         crypto.getRandomValues(array);
         const hex = Array.from(array, b => b.toString(16).padStart(2, "0")).join("");
-        existingId = ${hex.substr(0, 8)}-${hex.substr(8, 4)}-${hex.substr(12, 4)}-${hex.substr(16, 4)}-${hex.substr(20, 12)};
+        existingId = `${hex.substr(0, 8)}-${hex.substr(8, 4)}-${hex.substr(12, 4)}-${hex.substr(16, 4)}-${hex.substr(20, 12)}`;
       }
       try {
         localStorage.setItem("USERQUERY_uid", existingId);
@@ -224,8 +225,32 @@
     _eventListeners.push({ target: window, event: "load", handler: pageLoadHandler });
 
     // 3. Page unload: Log unload event and flush the batch.
+    // NEW: Remove this tab's marker from localStorage and, if it is the last open tab, log an additional event.
     const unloadHandler = function () {
+      try {
+        localStorage.removeItem("USERQUERY_tab_" + _tabId);
+      } catch (err) {
+        console.warn("[USERQUERY] Error removing tab id from localStorage.");
+      }
       trackInternal("pageUnload");
+
+      // Check for remaining tabs.
+      let activeTabs = 0;
+      try {
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.indexOf("USERQUERY_tab_") === 0) {
+            activeTabs++;
+          }
+        }
+      } catch (err) {
+        console.warn("[USERQUERY] Error counting active tabs.");
+      }
+
+      if (activeTabs === 0) {
+        // This is the last tab closing.
+        trackInternal("allTabsClosed");
+      }
       flushEventBatch();
     };
     window.addEventListener("beforeunload", unloadHandler, { capture: true });
@@ -303,7 +328,17 @@
     _siteId = _config.siteId;
     _userId = getOrCreateUserId();
 
-    console.log([USERQUERY] Initializing with siteId="${_siteId}", userId="${_userId}");
+    // NEW: Create a unique tab id for this browsing context and add it to localStorage.
+    _tabId = (crypto && typeof crypto.randomUUID === "function")
+      ? crypto.randomUUID()
+      : Math.random().toString(36).substr(2, 9);
+    try {
+      localStorage.setItem("USERQUERY_tab_" + _tabId, Date.now());
+    } catch (err) {
+      console.warn("[USERQUERY] localStorage not available for tab tracking.");
+    }
+
+    console.log(`[USERQUERY] Initializing with siteId="${_siteId}", userId="${_userId}"`);
 
     // Attach all event listeners.
     attachCoreEventListeners();
