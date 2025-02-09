@@ -122,7 +122,12 @@
         const array = new Uint8Array(16);
         crypto.getRandomValues(array);
         const hex = Array.from(array, b => b.toString(16).padStart(2, "0")).join("");
-        existingId = `${hex.substr(0, 8)}-${hex.substr(8, 4)}-${hex.substr(12, 4)}-${hex.substr(16, 4)}-${hex.substr(20, 12)}`;
+        existingId =
+          hex.substr(0, 8) + "-" +
+          hex.substr(8, 4) + "-" +
+          hex.substr(12, 4) + "-" +
+          hex.substr(16, 4) + "-" +
+          hex.substr(20, 12);
       }
       try {
         localStorage.setItem("USERQUERY_uid", existingId);
@@ -164,6 +169,7 @@
       events: _eventBatch
     };
 
+    // Use fetch for normal periodic flushing.
     fetch(ENDPOINT, {
       method: "POST",
       headers: {
@@ -182,6 +188,31 @@
         _eventBatch = [];
       });
   }
+
+  /* ===== New Code: Tab Counting ===== */
+  const TAB_STORAGE_KEY = "USERQUERY_openTabs";
+
+  function incrementTabCount() {
+    try {
+      let count = parseInt(localStorage.getItem(TAB_STORAGE_KEY) || "0", 10);
+      localStorage.setItem(TAB_STORAGE_KEY, count + 1);
+    } catch (err) {
+      console.warn("[USERQUERY] localStorage not available for tab counting.");
+    }
+  }
+
+  function decrementTabCount() {
+    try {
+      let count = parseInt(localStorage.getItem(TAB_STORAGE_KEY) || "0", 10);
+      count = Math.max(0, count - 1);
+      localStorage.setItem(TAB_STORAGE_KEY, count);
+      return count;
+    } catch (err) {
+      console.warn("[USERQUERY] localStorage not available for tab counting.");
+      return 0;
+    }
+  }
+  /* ===== End New Code ===== */
 
   /**
    * Attach core event listeners to collect as much data as possible.
@@ -222,10 +253,32 @@
     window.addEventListener("load", pageLoadHandler);
     _eventListeners.push({ target: window, event: "load", handler: pageLoadHandler });
 
-    // 3. Page unload: Log unload event and flush the batch.
+    // 3. Page unload: Log unload event, update tab counter,
+    // and if this is the last tab, log an extra "allTabsClosed" event.
     const unloadHandler = function () {
       trackInternal("pageUnload");
-      flushEventBatch();
+
+      // Update the open-tab count.
+      const remainingTabs = decrementTabCount();
+
+      // If no other tabs remain, log that the user closed all tabs.
+      if (remainingTabs === 0) {
+        trackInternal("allTabsClosed");
+        // Use navigator.sendBeacon for a best-effort synchronous send.
+        const eventsPayload = {
+          userId: _userId,
+          siteId: _siteId,
+          events: _eventBatch
+        };
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon(ENDPOINT, JSON.stringify(eventsPayload));
+          _eventBatch = [];
+        } else {
+          flushEventBatch();
+        }
+      } else {
+        flushEventBatch();
+      }
     };
     window.addEventListener("beforeunload", unloadHandler, { capture: true });
     _eventListeners.push({ target: window, event: "beforeunload", handler: unloadHandler, options: { capture: true } });
@@ -303,6 +356,16 @@
     _userId = getOrCreateUserId();
 
     console.log(`[USERQUERY] Initializing with siteId="${_siteId}", userId="${_userId}"`);
+
+    /* 
+      New: When a tab loads, increment the shared counter.
+      (If localStorage isn’t available, the counter won’t work but the rest will.)
+    */
+    try {
+      incrementTabCount();
+    } catch (err) {
+      console.warn("[USERQUERY] Could not increment tab counter:", err);
+    }
 
     // Attach all event listeners.
     attachCoreEventListeners();
