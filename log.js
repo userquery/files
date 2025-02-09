@@ -2,7 +2,7 @@
   "use strict";
 
   /**
-   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!
+   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!!
    *
    * This module tracks user interactions on a website by:
    * - Generating stable element identifiers (ZenIDs) based on static attributes.
@@ -255,14 +255,17 @@
     window.addEventListener("resize", resizeHandler);
     _eventListeners.push({ target: window, event: "resize", handler: resizeHandler });
 
-    // 6. Visibility changes: Track when the document visibility changes.
+    // 6. Visibility changes: Trigger different event names based on state.
     let previousVisibilityState = document.visibilityState;
     const visibilityHandler = function () {
       const currentVisibilityState = document.visibilityState;
-      trackInternal("visibilityChange", {
-        from: previousVisibilityState,
-        to: currentVisibilityState
-      });
+      if (previousVisibilityState !== currentVisibilityState) {
+        if (currentVisibilityState === "hidden") {
+          trackInternal("visibility change away");
+        } else if (currentVisibilityState === "visible") {
+          trackInternal("visibility change to");
+        }
+      }
       previousVisibilityState = currentVisibilityState;
     };
     document.addEventListener("visibilitychange", visibilityHandler);
