@@ -2,12 +2,12 @@
   "use strict";
 
   /**
-   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)
+   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!
    *
    * This module tracks user interactions on a website by:
    * - Generating stable element identifiers (ZenIDs) based on static attributes.
    * - Labeling elements on click if they aren’t already labeled.
-   * - Tracking events (e.g., clicks, page load/unload, custom events, scrolls, resizes, visibility changes, mouse moves, errors).
+   * - Tracking events (e.g., clicks, page load/unload, custom events, scrolls, resizes, visibility changes, errors).
    * - Batching events in memory and periodically broadcasting them via a POST request.
    *
    * The endpoint for broadcasting events is defined below.
@@ -255,30 +255,20 @@
     window.addEventListener("resize", resizeHandler);
     _eventListeners.push({ target: window, event: "resize", handler: resizeHandler });
 
-    // 6. Visibility changes: Track when the document is hidden or visible.
+    // 6. Visibility changes: Track when the document visibility changes.
+    let previousVisibilityState = document.visibilityState;
     const visibilityHandler = function () {
+      const currentVisibilityState = document.visibilityState;
       trackInternal("visibilityChange", {
-        state: document.visibilityState
+        from: previousVisibilityState,
+        to: currentVisibilityState
       });
+      previousVisibilityState = currentVisibilityState;
     };
     document.addEventListener("visibilitychange", visibilityHandler);
     _eventListeners.push({ target: document, event: "visibilitychange", handler: visibilityHandler });
 
-    // 7. Mouse move events: Throttle to once per second to capture cursor positions.
-    let lastMouseMoveTime = 0;
-    const mouseMoveHandler = function (e) {
-      const now = Date.now();
-      if (now - lastMouseMoveTime < 1000) return;
-      lastMouseMoveTime = now;
-      trackInternal("mouseMove", {
-        clientX: e.clientX,
-        clientY: e.clientY
-      });
-    };
-    document.addEventListener("mousemove", mouseMoveHandler);
-    _eventListeners.push({ target: document, event: "mousemove", handler: mouseMoveHandler });
-
-    // 8. Error tracking: Capture runtime errors.
+    // 7. Error tracking: Capture runtime errors.
     const errorHandler = function (message, source, lineno, colno, error) {
       trackInternal("error", {
         message,
