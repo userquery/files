@@ -14,7 +14,7 @@
    */
 
   // Define the endpoint.
-  const ENDPOINT = "https://www.api.userquery.tech/api/sites";
+  const ENDPOINT = "https://www.api.userquery.tech/api/events";
 
   const USERQUERY = {};
 
