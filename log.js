@@ -1,18 +1,6 @@
 (function (global) {
   "use strict";
 
-  /**
-   * USERQUERY (Stable Hash-Based ZenIDs Without Position Dependence)!
-   *
-   * This module tracks user interactions on a website by:
-   * - Generating stable element identifiers (ZenIDs) based on static attributes.
-   * - Labeling elements on click if they aren’t already labeled.
-   * - Tracking events (e.g., clicks, page load/unload, custom events, scrolls, resizes, visibility changes, errors).
-   * - Batching events in memory and periodically broadcasting them via a POST request.
-   *
-   * The endpoint for broadcasting events is defined below.
-   */
-
   // Define the endpoint.
   const ENDPOINT = "https://www.api.userquery.tech/api/events";
 
@@ -33,16 +21,14 @@
     batchInterval: 5000 // in milliseconds
   };
 
-  // Global mapping for ZenIDs (to generate stable element identifiers).
+  // Global mapping for ZenIDs.
   const __zenMapping = {};
 
   /**
    * Generate a signature for an element based on its static properties.
-   * Ignores positional or dynamic data.
    */
   function generateElementSignature(element) {
     if (!element || !element.tagName) return null;
-
     const parts = [element.tagName.toLowerCase()];
     if (element.id) parts.push(`id:${element.id}`);
     if (element.className) parts.push(`class:${element.className}`);
@@ -50,8 +36,6 @@
     if (nameAttr) parts.push(`name:${nameAttr}`);
     const typeAttr = element.getAttribute("type");
     if (typeAttr) parts.push(`type:${typeAttr}`);
-
-    // Include a truncated innerText if available and short.
     const text = element.textContent.trim();
     if (text && text.length < 50) {
       parts.push(`text:${text}`);
@@ -61,7 +45,6 @@
 
   /**
    * Compute a 32-bit FNV-1a hash for a given string.
-   * Returns a base-36 string representation.
    */
   function fnv32a(str) {
     let hash = 0x811c9dc5;
@@ -74,7 +57,6 @@
 
   /**
    * Generate a stable ZenID for the given element.
-   * If duplicate signatures occur, a counter suffix is appended.
    */
   function generateStableZenId(element) {
     const signature = generateElementSignature(element);
@@ -106,7 +88,6 @@
 
   /**
    * Retrieve or create a persistent user ID stored in localStorage.
-   * Uses crypto.randomUUID() when available for better uniqueness.
    */
   function getOrCreateUserId() {
     let existingId = null;
@@ -121,7 +102,7 @@
       } else {
         const array = new Uint8Array(16);
         crypto.getRandomValues(array);
-        const hex = Array.from(array, b => b.toString(16).padStart(2, "0")).join("");
+        const hex = Array.from(array, (b) => b.toString(16).padStart(2, "0")).join("");
         existingId = `${hex.substr(0, 8)}-${hex.substr(8, 4)}-${hex.substr(12, 4)}-${hex.substr(16, 4)}-${hex.substr(20, 12)}`;
       }
       try {
@@ -153,31 +134,31 @@
   }
 
   /**
-   * Broadcast the batched events via a POST request.
+   * Broadcast the batched events via a POST request using fetch.
    */
   function flushEventBatch() {
     if (_eventBatch.length === 0) return;
-
     const eventsPayload = {
       userId: _userId,
       siteId: _siteId,
-      events: _eventBatch
+      events: _eventBatch,
     };
+    const payloadString = JSON.stringify(eventsPayload);
 
     fetch(ENDPOINT, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(eventsPayload)
+      headers: { "Content-Type": "application/json" },
+      body: payloadString,
     })
-      .then(response => {
+      .then((response) => {
         if (!response.ok) {
           console.warn("[USERQUERY] Failed to post events. Response status:", response.status);
+        } else {
+          console.log("[USERQUERY] Events posted successfully. Response status:", response.status);
         }
         _eventBatch = [];
       })
-      .catch(err => {
+      .catch((err) => {
         console.warn("[USERQUERY] Error posting events:", err);
         _eventBatch = [];
       });
@@ -255,7 +236,7 @@
     window.addEventListener("resize", resizeHandler);
     _eventListeners.push({ target: window, event: "resize", handler: resizeHandler });
 
-    // 6. Visibility changes: Trigger different event names based on state.
+    // 6. Visibility changes: Capture when the document visibility changes.
     let previousVisibilityState = document.visibilityState;
     const visibilityHandler = function () {
       const currentVisibilityState = document.visibilityState;
@@ -287,10 +268,6 @@
 
   /**
    * Initialize USERQUERY with the provided configuration.
-   *
-   * Options can include:
-   *   - siteId: A unique identifier for the site.
-   *   - batchInterval: Interval (in ms) to flush event batches via POST.
    */
   USERQUERY.init = function (config = {}) {
     if (_initialized) {
@@ -304,7 +281,7 @@
 
     console.log(`[USERQUERY] Initializing with siteId="${_siteId}", userId="${_userId}"`);
 
-    // Attach all event listeners.
+    // Attach event listeners.
     attachCoreEventListeners();
 
     // If the document is already fully loaded, immediately track a page load.
@@ -312,12 +289,12 @@
       trackInternal("pageLoad", { title: document.title });
     }
 
-    // Set up a periodic flush of the event batch.
+    // Set up periodic flush of the event batch.
     _batchTimer = setInterval(flushEventBatch, _config.batchInterval);
   };
 
   /**
-   * Stop USERQUERY by removing event listeners and flushing any pending events.
+   * Stop USERQUERY by removing event listeners and flushing pending events.
    */
   USERQUERY.stop = function () {
     if (!_initialized) {
