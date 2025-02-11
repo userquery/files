@@ -2,7 +2,7 @@
   "use strict";
 
   // Define the endpoint.
-  const ENDPOINT = "https://www.api.userquery.tech/api/events";
+  const ENDPOINT = "https://userqueryapi-570ltrrel-nathanielangafors-projects.vercel.app/api/events";
 
   const USERQUERY = {};
 
