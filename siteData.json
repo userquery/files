@@ -1,0 +1,2517 @@
+{
+    "_id": {
+        "$oid": "67aaf3a0aedcd5998577455f"
+    },
+    "siteId": "80dfc005-b8c2-4390-8453-c623fae20993",
+    "__v": {
+        "$numberInt": "0"
+    },
+    "users": [
+        {
+            "userId": "47c5df4d-de53-44e5-8742-97ca590e6a8e",
+            "actions": [
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": "https://accounts.google.com/"
+                }
+            ]
+        },
+        {
+            "userId": "c7dc0e0c-89bb-4dae-9439-db56b28d3ce9",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows"
+                }
+            ]
+        },
+        {
+            "userId": "5cf7225e-b22c-48d9-a045-b4e4d971a1fe",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                }
+            ]
+        },
+        {
+            "userId": "c18fe347-5f10-4a72-8116-4330b8619d9c",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows Edg/132.0.0.0",
+                    "referrer": ""
+                }
+            ]
+        },
+        {
+            "userId": "75761b2d-4817-4f1d-be98-661211527b2e",
+            "actions": [
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                }
+            ]
+        },
+        {
+            "userId": "21e1818b-6423-454a-85b5-d71bbfd903ec",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows"
+                }
+            ]
+        },
+        {
+            "userId": "04cf0ed1-792a-4545-bde0-6369b466af74",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                }
+            ]
+        },
+        {
+            "userId": "2791731b-2442-4350-8d6a-2590ba1b957d",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+                    "referrer": ""
+                }
+            ]
+        },
+        {
+            "userId": "18e8bf71-81da-4951-a8bc-297843b77ddc",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                }
+            ]
+        },
+        {
+            "userId": "e087dd6b-99d3-4158-862d-e42a630ba849",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                },
+                {
+                    "eventName": "pageUnload",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Windows",
+                    "referrer": ""
+                }
+            ]
+        },
+        {
+            "userId": "60dca88b-14ca-4cdc-bac4-521c55c488cd",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla iPhone"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/?code=DzmbSWW8VqfaT--r_qeIrR_wcvMu0DjJGJsFGpzXRU5jL&state=YXBnWVNTR2UyVVd1WmNGaEpqTXBlOVFZR3JPYkouNVFUczVIcFhHTjNjNA%3D%3D#",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/?code=DzmbSWW8VqfaT--r_qeIrR_wcvMu0DjJGJsFGpzXRU5jL&state=YXBnWVNTR2UyVVd1WmNGaEpqTXBlOVFZR3JPYkouNVFUczVIcFhHTjNjNA%3D%3D#",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://accounts.google.com/"
+                }
+            ]
+        },
+        {
+            "userId": "60dca88b-14ca-4cdc-bac4-521c55c488cd",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone"
+                }
+            ]
+        },
+        {
+            "userId": "f590b46e-e7ba-4ad4-ad2f-7e553b8dae91",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla/5.0 (X11; Linux x86_64)"
+                }
+            ]
+        },
+        {
+            "userId": "fba0e073-2d2f-45c9-bbb9-b7c957481ced",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change to",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "resize",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/search",
+                    "userAgent": "Mozilla Mac"
+                }
+            ]
+        },
+        {
+            "userId": "6ec9c20e-5704-4b9a-b20b-92921b8c27d4",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "visibility change away",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                },
+                {
+                    "eventName": "click",
+                    "url": "https://melcourses.com/calendar",
+                    "userAgent": "Mozilla iPhone",
+                    "referrer": "https://melcourses.us.auth0.com/"
+                }
+            ]
+        },
+        {
+            "userId": "701ef3d0-481b-4bf1-8d0d-0a91cac6c22c",
+            "actions": []
+        },
+        {
+            "userId": "b0e678e7-a318-46e9-99fa-8319d07fc22c",
+            "actions": []
+        },
+        {
+            "userId": "e04b4892-6705-44ff-898a-ae41672784df",
+            "actions": [
+                {
+                    "eventName": "pageLoad",
+                    "url": "https://melcourses.com/",
+                    "userAgent": "Mozilla Mac"
+                }
+            ]
+        }
+    ]
+}
